@@ -1,0 +1,59 @@
+body {
+    margin-top: 8%;
+    display : flex;
+    flex-direction:column-reverse;
+    width:500px;
+    align-items: center;
+    justify-content: center;
+    margin-left:500px;
+}
+.main-div{
+    background-color: #F8F8F8;
+    height:400px;
+    width: 450px;
+}
+h3{
+    color: #000000;
+}
+.progress{
+    background-color: #E4EBF5;
+    height:30px;
+    float: right;
+    width: 275px;
+    transform: rotate(270deg);
+
+}
+input{
+    margin:17px;
+    padding:5px;
+    font-size: 12px;
+}
+.progress-done{
+    justify-content: center;
+    float: left;
+    background-image: repeating-linear-gradient(
+        to left,
+        #6EA3F2,
+        #6EA3F2,
+        #6EA3F2
+    );
+    
+    color: #6EA3F2;
+    height: 100%;
+    width:0;
+    transition: 1s ease 0.3s;
+}
+.sam1{
+    display:inline;
+    padding-top:120px;
+    
+}
+.sam2{
+    display: inline ;
+}
+.inputContainer{
+    width:50%;
+    justify-content:baseline;
+    padding-left:9%;
+    padding-bottom: 9%;
+}
